@@ -1,0 +1,42 @@
+.avatar__container{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 2rem;
+}
+
+.avatar__content{
+    display: flex;
+    flex-wrap: nowrap;
+    width: auto;
+    gap: 1rem;
+}
+
+.avatar__image{
+    padding: .2rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.avatar__image img{
+    border-radius: 100%;
+    width: 80px;
+    aspect-ratio: 1/1;
+    background-color: var(--first-color);
+}
+
+.avatar__data{
+    display: grid;
+    place-items: center;
+    background: linear-gradient(48deg,var(--first-color)30%, var(--second-color)90%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.avatar__icon{
+    color: var(--first-color);
+}
+
+
+
+

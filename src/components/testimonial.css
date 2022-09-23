@@ -1,0 +1,39 @@
+.testimonial__title{
+  margin: auto 2rem;
+}
+
+.image__container{
+  margin: 1rem 2rem;
+}
+
+.image__wrapper{
+  display: grid;
+  place-items: center;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.image__wrapper img{
+  border-radius: 1rem;
+  height: 70vh;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: var(--first-color) !important;
+}
+
+
+/* ======================== tablets ======================== */
+@media screen and (max-width: 1024px){
+  .image__wrapper img{
+    height: 50vh;
+  }
+}
+
+/* ======================== small-devices ======================== */
+@media screen and (max-width: 600px){
+  .image__wrapper img{
+    height: 40vh;
+  }
+}
+  
